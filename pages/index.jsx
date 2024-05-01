@@ -28,7 +28,7 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setHasVerified(false);
-      setSecretMessage("You have to pay $1 USDC to see the secret! 👀");
+      setSecretMessage("You can access exclusive content for only 5 USDC! 👀");
     }, 500);
   }, [address]);
 
