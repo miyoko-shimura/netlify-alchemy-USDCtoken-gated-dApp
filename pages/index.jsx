@@ -22,13 +22,13 @@ export default function Home() {
   });
 
   const [secretMessage, setSecretMessage] = useState(
-    "You can access exclusive content for only 5 USDC! 👀"
+    "Access granted for just 1 USDC! 🔑"
   );
 
   useEffect(() => {
     setTimeout(() => {
       setHasVerified(false);
-      setSecretMessage("You can access exclusive content for only 5 USDC! 👀");
+      setSecretMessage("Access granted for just 1 USDC! 🔑");
     }, 500);
   }, [address]);
 
