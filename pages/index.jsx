@@ -22,7 +22,7 @@ export default function Home() {
   });
 
   const [secretMessage, setSecretMessage] = useState(
-    "You have to pay $1 USDC to see the secret! 👀"
+    "You can access exclusive content for only 5 USDC! 👀"
   );
 
   useEffect(() => {
