@@ -22,13 +22,13 @@ export default function Home() {
   });
 
   const [secretMessage, setSecretMessage] = useState(
-    "Gain exclusive access through the token gate for just 1 USDC! 🔓"
+    "Gain exclusive access<br>through the token gate for just 1 USDC! 🔓"
   );
 
   useEffect(() => {
     setTimeout(() => {
       setHasVerified(false);
-      setSecretMessage("Gain exclusive access through the token gate for just 1 USDC! 🔓");
+      setSecretMessage("Gain exclusive access<br>through the token gate for just 1 USDC! 🔓");
     }, 500);
   }, [address]);
 
