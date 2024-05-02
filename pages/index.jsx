@@ -22,13 +22,13 @@ export default function Home() {
   });
 
   const [secretMessage, setSecretMessage] = useState(
-    "Unlock the mystery through the token gate for 1 USDC! 🔓"
+    "Unlock the mystery through the token gate for 1 USDC? 🔓"
   );
 
   useEffect(() => {
     setTimeout(() => {
       setHasVerified(false);
-      setSecretMessage("Unlock the mystery through the token gate for 1 USDC! 🔓");
+      setSecretMessage("Unlock the mystery through the token gate for 1 USDC? 🔓");
     }, 500);
   }, [address]);
 
